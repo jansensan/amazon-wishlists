@@ -1,0 +1,10 @@
+### IGNORE FILES FROM GIT ###
+
+### MAC OSX FILES ###
+*._*
+*.DS_STORE
+
+### PROJECT FILES ###
+
+.vscode
+node_modules
