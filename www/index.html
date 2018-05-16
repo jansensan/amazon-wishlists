@@ -1,15 +1,41 @@
 <!doctype html>
 <html>
+
   <head>
     <meta charset="UTF-8">
     <title>Listes de souhaits | Mat Janson Blanchet</title>
+
+    <!-- css start -->
+    <link 
+      href='https://fonts.googleapis.com/css?family=Poly:400,400italic'
+      rel='stylesheet'
+      type='text/css'
+    />
+    <link 
+      href='https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700'
+      rel='stylesheet'
+      type='text/css'
+    />
+    <link 
+      rel="stylesheet"
+      href="styles/common.css"
+    /> 
+    <!-- css end -->
   </head>
+
   <body>
-    <h1>Listes de souhaits</h1>
-    <button
-      type="button"
-      onclick="loadWishlist()"
-    >Test</button>
-    <script src="scripts/main.js"></script>
+    <header>
+      <div class="centered">
+        <h1 class="title">Listes de souhaits</h1>
+        <div class="subtitle">Mat Janson Blanchet</div>
+      </div>
+    </header>
+
+    <div class="centered">
+      <div id="reactApp"></div>
+    </div>
+
+    <script src="scripts/amazon-wishlists.js"></script>
   </body>
+
 </html>
