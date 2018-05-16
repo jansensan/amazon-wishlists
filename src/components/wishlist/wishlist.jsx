@@ -16,7 +16,7 @@ export default class Wishlist extends Component {
       .fetch()
       .then((() => {
         this.setState(this.state);
-      }))
+      }));
   }
 
   // react methods definitions
