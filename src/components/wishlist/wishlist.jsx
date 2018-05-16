@@ -35,6 +35,7 @@ export default class Wishlist extends Component {
         }
 
         {
+          (this.state.isLoaded !== null) ?
           this.state.data.map((item, i) => 
             <ListItem
               key={i}
@@ -43,6 +44,7 @@ export default class Wishlist extends Component {
               productLink={item.link}
             ></ListItem>
           )
+          : <p>Cette liste ne contient rien</p>
         }
 
       </div>
