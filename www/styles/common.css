@@ -2,8 +2,7 @@ body, html {
   margin: 0;
   background: #fff;
   font-family: Helvetica, Arial, sans-serif;
-  color: #272727;
-  padding-bottom: 32px; }
+  color: #272727; }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0.125em 0;
@@ -55,6 +54,95 @@ header {
     font-family: "Poly", "Times New Roman", Times, serif;
     font-style: italic;
     color: #b5b5b5; }
+
+footer {
+  overflow: hidden;
+  margin-top: 48px;
+  padding: 32px 0 48px 0;
+  background: #272727;
+  color: #fff; }
+  footer .site-meta {
+    overflow: hidden;
+    padding-bottom: 16px; }
+  footer .title {
+    line-height: 1;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    font-size: 22pt; }
+    @media (min-width: 519px) {
+      footer .title {
+        font-size: 22pt; } }
+    @media (min-width: 768px) {
+      footer .title {
+        font-size: 30pt; } }
+  footer .description {
+    font-family: "Poly", "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 10.5pt;
+    letter-spacing: -0.5pt;
+    color: #b5b5b5; }
+    @media (min-width: 768px) {
+      footer .description {
+        padding-bottom: 16px;
+        font-size: 13pt;
+        letter-spacing: 0pt; } }
+  footer .column {
+    position: relative;
+    float: left;
+    width: 50%; }
+    @media (min-width: 768px) {
+      footer .column.sections {
+        width: 17%; } }
+    @media (min-width: 960px) {
+      footer .column.sections {
+        width: 25%; } }
+    footer .column.code-libs {
+      display: none; }
+      @media (min-width: 768px) {
+        footer .column.code-libs {
+          display: block;
+          width: 24%; } }
+      @media (min-width: 960px) {
+        footer .column.code-libs {
+          width: 25%; } }
+    footer .column.other-projects {
+      display: none; }
+      @media (min-width: 768px) {
+        footer .column.other-projects {
+          display: block;
+          width: 26%; } }
+      @media (min-width: 960px) {
+        footer .column.other-projects {
+          width: 25%; } }
+    @media (min-width: 768px) {
+      footer .column.contact {
+        width: 33%; } }
+    @media (min-width: 960px) {
+      footer .column.contact {
+        width: 25%; } }
+  footer .heading {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #b5b5b5; }
+  footer ul {
+    padding: 0;
+    margin: 0 0 0 16px; }
+    @media (min-width: 768px) {
+      footer ul {
+        margin: 0 0 0 8px; } }
+    @media (min-width: 960px) {
+      footer ul {
+        margin: 0 0 0 16px; } }
+  footer li {
+    padding: 0;
+    margin: 0.45em 0;
+    list-style: none;
+    font-family: "Poly", "Times New Roman", Times, serif;
+    font-style: italic;
+    line-height: 1.125; }
+    footer li a {
+      color: #fff; }
 
 .content {
   display: table; }

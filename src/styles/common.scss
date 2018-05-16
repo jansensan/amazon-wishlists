@@ -14,7 +14,6 @@ body, html {
   background: #fff;
   font-family: $ffSansSerif;
   color: $nearBlack;
-  padding-bottom: 32px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -79,6 +78,128 @@ header {
     font-family: $ffSerif;
     font-style: italic;
     color: $paleGrey;
+  }
+}
+
+footer {
+  overflow: hidden;
+  margin-top: 48px;
+  padding: 32px 0 48px 0;
+  background: $nearBlack;
+  color: #fff;
+
+  .site-meta {
+    overflow: hidden;
+    padding-bottom: 16px;
+  }
+
+  .title {
+    line-height: 1;
+    font-family: $ffHeading;
+    font-weight: $fwExtraBold;
+    font-size: 22pt;
+
+    @media (min-width: $phone) {
+      font-size: 22pt;
+    }
+    @media (min-width: $tablet) {
+      font-size: 30pt;
+    }
+  }
+
+  .description {
+    font-family: $ffSerif;
+    font-style: italic;
+    font-size: 10.5pt;
+    letter-spacing: -0.5pt;
+    color: $paleGrey;
+  
+    @media (min-width: $tablet) {
+      padding-bottom: 16px;
+      font-size: 13pt;
+      letter-spacing: 0pt;
+    }
+  }
+
+  .column {
+    position: relative;
+    float: left;
+    width: 50%;
+
+    &.sections {
+      @media (min-width: $tablet) {
+        width: 17%;
+      }
+      @media (min-width: $desktop) {
+        width: 25%;
+      }
+    }
+
+    &.code-libs {
+      display: none;
+
+      @media (min-width: $tablet) {
+        display: block;
+        width: 24%;
+      }
+      @media (min-width: $desktop) {
+        width: 25%;
+      }
+    }
+
+    &.other-projects {
+      display: none;
+
+      @media (min-width: $tablet) {
+        display: block;
+        width: 26%;
+      }
+      @media (min-width: $desktop) {
+        width: 25%;
+      }
+    }
+
+    &.contact {
+      @media (min-width: $tablet) {
+        width: 33%;
+      }
+      @media (min-width: $desktop) {
+        width: 25%;
+      }
+    }
+  }
+
+  .heading {
+    font-family: $ffHeading;
+    font-weight: $fwExtraBold;
+    text-transform: uppercase;
+    color: $paleGrey;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0 0 0 16px;
+
+    @media (min-width: $tablet) {
+      margin: 0 0 0 8px;
+    }
+    @media (min-width: $desktop)
+    {
+      margin: 0 0 0 16px;
+    }
+  }
+
+  li {
+    padding: 0;
+    margin: 0.45em 0;
+    list-style: none;
+    font-family: $ffSerif;
+    font-style: italic;
+    line-height: 1.125;
+
+    a {
+      color: #fff;
+    }
   }
 }
 
