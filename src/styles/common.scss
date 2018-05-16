@@ -83,15 +83,10 @@ header {
 
 footer {
   overflow: hidden;
-  margin-top: 48px;
+  margin-top: 64px;
   padding: 32px 0 48px 0;
   background: $nearBlack;
   color: #fff;
-
-  .site-meta {
-    overflow: hidden;
-    padding-bottom: 16px;
-  }
 
   .title {
     line-height: 1;
