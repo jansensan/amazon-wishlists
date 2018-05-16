@@ -1,0 +1,29 @@
+@import "../../styles/variables.scss";
+
+.list-item {
+  display: inline-block;
+  margin: 10px 0;
+  width: 50%;
+
+  a {
+    color: $blue;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .product-img {
+    float: left;
+    padding: 8px;
+    height: 48px;
+    border: 1px solid $paleGrey;
+  }
+  
+  .product-name {
+    position: relative;
+    top: 26px;
+    left: 12px;
+  }
+}
