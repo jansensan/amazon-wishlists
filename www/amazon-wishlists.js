@@ -418,7 +418,7 @@ eval("\n/**\n * When source maps are enabled, `style-loader` uses a link element
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"../assets/1bd656d44ed42e2ea6e2982d7cf09e64.gif\";//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9hc3NldHMvc3Bpbm5lci0zMngzMi5naWYuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9hc3NldHMvc3Bpbm5lci0zMngzMi5naWY/MGE2YyJdLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IF9fd2VicGFja19wdWJsaWNfcGF0aF9fICsgXCIuLi9hc3NldHMvMWJkNjU2ZDQ0ZWQ0MmUyZWE2ZTI5ODJkN2NmMDllNjQuZ2lmXCI7Il0sIm1hcHBpbmdzIjoiQUFBQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./assets/spinner-32x32.gif\n");
+eval("module.exports = __webpack_require__.p + \"1bd656d44ed42e2ea6e2982d7cf09e64.gif\";//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9hc3NldHMvc3Bpbm5lci0zMngzMi5naWYuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9hc3NldHMvc3Bpbm5lci0zMngzMi5naWY/NWRhMCJdLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IF9fd2VicGFja19wdWJsaWNfcGF0aF9fICsgXCIxYmQ2NTZkNDRlZDQyZTJlYTZlMjk4MmQ3Y2YwOWU2NC5naWZcIjsiXSwibWFwcGluZ3MiOiJBQUFBIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./assets/spinner-32x32.gif\n");
 
 /***/ }),
 

@@ -12,7 +12,7 @@ module.exports = {
     index: './main.jsx'
   },
   output: {
-    path: path.resolve(__dirname, './www/scripts'),
+    path: path.resolve(__dirname, './www'),
     filename: 'amazon-wishlists.js',
   },
   module: {
@@ -35,9 +35,6 @@ module.exports = {
       {
         test: /\.(png|jpg|gif|svg)$/,
         loader: 'file-loader',
-        options: {
-          outputPath: '../assets',
-        }
       },
     ]
   },
