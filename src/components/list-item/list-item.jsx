@@ -18,9 +18,15 @@ export default class ListItem extends Component {
             src={this.props.productImageSrc}
             alt={this.props.productName}
           />
-          <span className="product-name">{this.props.productName}</span>
+          <span className="product-name">{this.getProductName(this.props.productName)}</span>
         </a>
       </div>
     );
+  }
+
+  // methods definition
+  getProductName(fullName) {
+    fullName = _.unescape(fullName);
+    return _.truncate(fullName, {'length': 50});
   }
 }
