@@ -39,7 +39,7 @@ export default class Wishlist extends Component {
             <ListItem
               key={i}
               productImageSrc={item.picture}
-              productName={_.unescape(item.name)}
+              productName={item.name}
               productLink={item.link}
             ></ListItem>
           )
