@@ -5,6 +5,5 @@
 *.DS_STORE
 
 ### PROJECT FILES ###
-
 .vscode
 node_modules
