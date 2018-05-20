@@ -27,7 +27,7 @@ export default class ListItem extends Component {
   // methods definition
   getProductName(fullName) {
     fullName = this.unescapeName(fullName);
-    return _.truncate(fullName, {'length': 50});
+    return _.truncate(fullName, {'length': 44});
   }
 
   unescapeName(name) {
