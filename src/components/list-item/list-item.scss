@@ -2,23 +2,20 @@
 
 .list-item {
   display: inline-block;
+  overflow: hidden;
   margin: 10px 0;
   width: 468px;
   border: 1px solid $paleGrey;
   background-color: $nearWhite;
-  overflow: hidden;
+  color: $blue;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
 
   &:nth-child(even) {
     margin-right: 20px;
-  }
-
-  a {
-    color: $blue;
-    cursor: pointer;
-
-    &:hover {
-      text-decoration: underline;
-    }
   }
 
   .product-img {

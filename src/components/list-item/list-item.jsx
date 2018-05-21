@@ -11,16 +11,14 @@ export default class ListItem extends Component {
   // react methods definitions
   render() {
     return (
-      <div className="list-item">
-        <a href={this.props.productLink}>
-          <img
-            className="product-img"
-            src={this.props.productImageSrc}
-            alt={this.props.productName}
-          />
-          <span className="product-name">{this.getProductName(this.props.productName)}</span>
-        </a>
-      </div>
+      <a className="list-item" href={this.props.productLink}>
+        <img
+          className="product-img"
+          src={this.props.productImageSrc}
+          alt={this.props.productName}
+        />
+        <span className="product-name">{this.getProductName(this.props.productName)}</span>
+      </a>
     );
   }
 
