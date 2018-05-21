@@ -13,6 +13,7 @@ import ListItem from './components/list-item/list-item.jsx';
 
 ReactDOM.render(
   <div>
+    <p>Une liste de bédés, de livres et autres articles qui m'intéressent.</p>
     <Wishlist
       wishlistId={Wishlists.TRANSFORMERS}
       wishlistName="Comics - Transformers"
