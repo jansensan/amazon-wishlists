@@ -32,20 +32,20 @@ ReactDOM.render(
       wishlistName="Jeux vidéo"
     ></Wishlist>
     <Wishlist
-      wishlistId={Wishlists.CONTEMPORARY_ART_BOOKS}
-      wishlistName="Livres - Arts contemporains"
-    ></Wishlist>
-    <Wishlist
       wishlistId={Wishlists.MEDIA_ART_BOOKS}
       wishlistName="Livres - Arts médiatiques"
     ></Wishlist>
     <Wishlist
-      wishlistId={Wishlists.TECH_SOCIETY_BOOKS}
-      wishlistName="Livres - Tech et société"
+      wishlistId={Wishlists.CONTEMPORARY_ART_BOOKS}
+      wishlistName="Livres - Arts contemporains"
     ></Wishlist>
     <Wishlist
       wishlistId={Wishlists.ART_BOOKS}
       wishlistName="Livres sur l'art"
+    ></Wishlist>
+    <Wishlist
+      wishlistId={Wishlists.TECH_SOCIETY_BOOKS}
+      wishlistName="Livres - Tech et société"
     ></Wishlist>
     <Wishlist
       wishlistId={Wishlists.BOOKS}
