@@ -1,5 +1,3 @@
-import _ from 'lodash';
-
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -8,7 +6,6 @@ import Wishlists from './constants/wishlists.js';
 
 // components
 import Wishlist from './components/wishlist/wishlist.jsx';
-import ListItem from './components/list-item/list-item.jsx';
 
 
 ReactDOM.render(
