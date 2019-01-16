@@ -12,6 +12,9 @@
   },
   "homepage": "https://github.com/jansensan/amazon-wishlists#readme",
   "license": "UNLICENSED",
+  "scripts": {
+    "dev": "webpack -d --watch --progress"
+  },
   "dependencies": {
     "lodash": "^4.17.10",
     "react": "^16.3.2",
@@ -36,6 +39,7 @@
     "sass-loader": "^7.0.1",
     "style-loader": "^0.21.0",
     "webpack": "^4.8.3",
+    "webpack-cli": "^3.2.1",
     "webpack-dev-server": "^3.1.4"
   }
 }
