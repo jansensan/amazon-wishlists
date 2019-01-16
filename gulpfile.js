@@ -1,17 +1,12 @@
-var config = require('./gulp-config')(),
-  gulp = require('gulp'),
+var gulp = require('gulp'),
   requireDir = require('require-dir'),
-  runSequence = require('run-sequence');
+  taskListing = require('gulp-task-listing');
+
 
 // require tasks directory
 requireDir('./tasks', { recurse: true });
 
-// tasks
-gulp.task('build', build);
 
-// tasks definitions
-function build() {
-  runSequence(
-    'styles'
-  );
-}
+// tasks
+gulp.task('help', taskListing);
+gulp.task('default', ['help']);

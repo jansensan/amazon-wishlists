@@ -1,7 +1,6 @@
 var config = require('../gulp-config')().styles,
   gulp = require('gulp'),
-  sass = require('gulp-sass'),
-  glp = require('gulp-load-plugins')({lazy: true});
+  sass = require('gulp-sass')
 
 // tasks definitions
 gulp.task('styles', compileStyles);
