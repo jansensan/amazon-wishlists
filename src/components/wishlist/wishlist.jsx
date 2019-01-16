@@ -11,11 +11,6 @@ export default class Wishlist extends Component {
   constructor(props) {
     super(props);
     this.state = new WishlistModel(this.props.wishlistId);
-    this.state
-      .fetch()
-      .then((() => {
-        this.setState(this.state);
-      }));
   }
 
   // react methods definitions
@@ -25,28 +20,35 @@ export default class Wishlist extends Component {
         <h2>{this.props.wishlistName}</h2>
 
         {
-          !this.state.isLoaded ?
+          !this.state.isLoaded &&
           <div className="loading-display">
             <img src={SpinnerSrc} className="icon" />
             <span className="label">En chargement...</span>
           </div>
-          : null
         }
 
         {
           (this.state.isLoaded !== null) ?
-          this.state.data.map((item, i) => 
-            <ListItem
-              key={i}
-              productImageSrc={item.picture}
-              productName={item.name}
-              productLink={item.link}
-            ></ListItem>
-          )
-          : <p>Cette liste ne contient rien</p>
+            this.state.data.map((item, i) =>
+              <ListItem
+                key={i}
+                productImageSrc={item.picture}
+                productName={item.name}
+                productLink={item.link}
+              ></ListItem>
+            )
+            : <p>Cette liste ne contient rien</p>
         }
 
       </div>
     );
+  }
+
+  componentDidMount() {
+    this.state
+      .fetch()
+      .then(() => {
+        this.setState(this.state)
+      });
   }
 }

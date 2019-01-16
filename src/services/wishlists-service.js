@@ -7,12 +7,20 @@ export default WishlistsService;
 
 // public methods definitions
 function load(wishlistId) {
-  let url = 'services/wishlist.php' +
-    '?id=' + wishlistId +
-    '&reveal=unpurchased' +
-    '&sort=priority' +
-    '&format=json' +
-    '&tld=ca';
+  if (!wishlistId) {
+    console.error(
+      'Error at WishlistsService.load: '
+      + 'No parameter was provided when `wishlistId` is expected'
+    );
+    return;
+  }
+
+  let url = 'services/wishlist.php'
+    + '?id=' + wishlistId
+    + '&reveal=unpurchased'
+    + '&sort=priority'
+    + '&format=json'
+    + '&tld=ca';
 
   return new Promise((resolve, reject) => {
     let xhr = new XMLHttpRequest();
