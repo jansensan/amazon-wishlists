@@ -7,6 +7,8 @@
   width: 468px;
   border: 1px solid $paleGrey;
   background-color: $nearWhite;
+  font-family: $ffSerif;
+  font-style: italic;
   color: $blue;
   cursor: pointer;
 
@@ -28,7 +30,7 @@
   
   .product-name {
     position: relative;
-    top: 26px;
+    top: 23px;
     left: 12px;
   }
 }
