@@ -1,12 +1,13 @@
 @import "../../styles/variables.scss";
 
 .wishlist {
-  display: table;
+  display: block;
   padding: 16px 0 32px;
 
   .loading-display {
     vertical-align: middle;
     margin: 16px 0;
+    height: 32px;
 
     .icon, .label {
       float: left;
@@ -15,6 +16,15 @@
     .label {
       padding: 10px;
       font-weight: $fwSemiBold;
+    }
+  }
+
+  .wishlist-cta-container {
+    position: relative;
+    text-align: right;
+
+    .wishlist-cta {
+      margin-top: 32px;
     }
   }
 }
