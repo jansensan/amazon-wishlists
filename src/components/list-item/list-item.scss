@@ -16,7 +16,7 @@
     text-decoration: underline;
   }
 
-  &:nth-child(even) {
+  &:nth-child(odd) {
     margin-right: 20px;
   }
 
@@ -27,7 +27,7 @@
     border-right: 1px solid $paleGrey;
     background-color: #fff;
   }
-  
+
   .product-name {
     position: relative;
     top: 23px;
