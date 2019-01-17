@@ -529,7 +529,7 @@ footer {
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 800;
     font-size: 22pt; }
-    @media (min-width: 519px) {
+    @media (min-width: 375px) {
       footer .title {
         font-size: 22pt; } }
     @media (min-width: 768px) {
@@ -610,4 +610,10 @@ footer {
 .centered {
   position: relative;
   margin: 0 auto;
-  width: 960px; }
+  width: 340px; }
+  @media (min-width: 768px) {
+    .centered {
+      width: 640px; } }
+  @media (min-width: 960px) {
+    .centered {
+      width: 960px; } }
