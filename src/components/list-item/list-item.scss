@@ -1,12 +1,15 @@
 @import "../../styles/variables.scss";
 
+
 .list-item {
   display: inline-block;
   overflow: hidden;
   margin: 10px 0;
-  width: 468px;
+  width: $phoneContentCol;
+
   border: 1px solid $paleGrey;
   background-color: $nearWhite;
+
   font-family: $ffSerif;
   font-style: italic;
   color: $blue;
@@ -18,6 +21,13 @@
 
   &:nth-child(odd) {
     margin-right: 20px;
+  }
+
+  @media (min-width: $tablet) {
+    width: 308px;
+  }
+  @media (min-width: $desktop) {
+    width: 468px;
   }
 
   .product-img {

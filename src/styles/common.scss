@@ -207,5 +207,12 @@ footer {
 .centered {
   position: relative;
   margin: 0 auto;
-  width: 960px;
+  width: $phoneContentCol;
+
+  @media (min-width: $tablet) {
+    width: $tabletContentCol;
+  }
+  @media (min-width: $desktop) {
+    width: 960px;
+  }
 }
