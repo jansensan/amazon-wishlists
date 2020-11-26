@@ -56,12 +56,11 @@ export default class Wishlist extends Component {
   }
 
   renderWishlistCTA() {
-    return this.state.isLoaded &&
-      <a
+    return <a
         href={this.getWishlistURL()}
         className="cta wishlist-cta"
         target="_blank"
-      >Voyez la liste Amazon</a>;
+      >Voyez cette liste sur Amazon.ca</a>;
   }
 
   renderWishlistItems() {
