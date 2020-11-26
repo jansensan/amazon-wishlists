@@ -331,14 +331,14 @@ select {
     color: #f8f8f8; }
 
 .sub-heading {
-  margin: -4px 0 16px 0;
+  margin: 2px 0 16px 0;
   line-height: 1.125;
   font-family: "Poly", "Times New Roman", Times, serif;
   font-style: italic;
   color: #6d6d6d; }
   @media (min-width: 960px) {
     .sub-heading {
-      margin: -4px 0 24px 0; } }
+      margin: 2px 0 24px 0; } }
 
 .cta {
   font-family: "Poly", "Times New Roman", Times, serif;

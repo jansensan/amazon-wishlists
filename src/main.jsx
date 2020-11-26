@@ -16,18 +16,7 @@ ReactDOM.render(
       <br/>
       <br/>
     </p>
-    <Wishlist
-      wishlistId={Wishlists.TRANSFORMERS}
-      wishlistName="Comics - Transformers"
-    ></Wishlist>
-    <Wishlist
-      wishlistId={Wishlists.COMICS}
-      wishlistName="Bédés/Comics"
-    ></Wishlist>
-    <Wishlist
-      wishlistId={Wishlists.VIDEO_GAMES}
-      wishlistName="Jeux vidéo"
-    ></Wishlist>
+
     <Wishlist
       wishlistId={Wishlists.MEDIA_ART_BOOKS}
       wishlistName="Livres - Arts médiatiques"
@@ -45,16 +34,24 @@ ReactDOM.render(
       wishlistName="Livres - Tech et société"
     ></Wishlist>
     <Wishlist
+      wishlistId={Wishlists.DESIGN_BOOKS}
+      wishlistName="Livres - Design"
+    ></Wishlist>
+    <Wishlist
       wishlistId={Wishlists.BOOKS}
       wishlistName="Livres (non triés)"
     ></Wishlist>
     <Wishlist
-      wishlistId={Wishlists.MUSIC}
-      wishlistName="Musique"
+      wishlistId={Wishlists.COMICS}
+      wishlistName="Bédés/Comics"
     ></Wishlist>
     <Wishlist
-      wishlistId={Wishlists.VIDEO}
-      wishlistName="Vidéo"
+      wishlistId={Wishlists.VIDEO_GAMES}
+      wishlistName="Jeux vidéo"
+    ></Wishlist>
+    <Wishlist
+      wishlistId={Wishlists.MUSIC}
+      wishlistName="Musique"
     ></Wishlist>
   </div>
   ,
