@@ -38,8 +38,8 @@ ReactDOM.render(
       wishlistName="Livres - Design"
     ></Wishlist>
     <Wishlist
-      wishlistId={Wishlists.BOOKS}
-      wishlistName="Livres (non triés)"
+      wishlistId={Wishlists.FICTION}
+      wishlistName="Livres - Romans"
     ></Wishlist>
     <Wishlist
       wishlistId={Wishlists.COMICS}
@@ -52,6 +52,10 @@ ReactDOM.render(
     <Wishlist
       wishlistId={Wishlists.MUSIC}
       wishlistName="Musique"
+    ></Wishlist>
+    <Wishlist
+      wishlistId={Wishlists.WORKSHOP}
+      wishlistName="Atelier et outils"
     ></Wishlist>
   </div>
   ,
