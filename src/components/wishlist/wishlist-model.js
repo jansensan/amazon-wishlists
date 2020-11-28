@@ -1,5 +1,7 @@
 import WishlistsService from '../../services/wishlists-service.js';
 
+const maxItems = 10;
+
 const priorityValues = {
   'highest': 1,
   'high': 2,
@@ -31,11 +33,18 @@ export default class WishlistModel {
 
             // add numeric value for priority
             temp.forEach(entry => {
+              // make copy
               var newEntry = _.cloneDeep(entry);
+
+              // add priority value as per mapping
               if (newEntry.priority) {
                 newEntry.priorityValue = priorityValues[newEntry.priority];
               }
-              this.data.push(newEntry);
+
+              // add a max of X
+              if (this.data.length < maxItems) {
+                this.data.push(newEntry);
+              }
             });
 
             // order array by product names
